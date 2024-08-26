@@ -107,7 +107,7 @@ def app():
 
     with st.form("game_form"):
 
-        st.image('sukhaa.jpg')
+        st.image('snake.jpg')
         st.write('')
         start_button = st.form_submit_button("Click here to start the test analysis")
 
