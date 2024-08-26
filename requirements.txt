@@ -1,0 +1,12 @@
+Streamlit
+math
+random
+opencv-python
+numpy
+pandas
+streamlit
+cvzone
+gspread
+oauth2client
+googletrans==4.0.0-rc1  
+streamlit-option-menu
