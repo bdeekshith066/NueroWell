@@ -41,7 +41,7 @@ def app():
       # Render the gradient text
     st.markdown(gradient_text_html, unsafe_allow_html=True)
     
-    st.image('divider.png')
+    st.image('images/divider.png')
     
     col1, col2, col3 = st.columns([1,0.15,1])
     with col1:
@@ -75,7 +75,7 @@ def app():
         st.write(all_data)
 
 
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     st.subheader(':blue[Instructions to Nurse]')
     st.write('1. Add new patients by selecting "New Patient" from the dropdown menu and if it is a old patient and wants all info please click existing user and retrieve his details')
