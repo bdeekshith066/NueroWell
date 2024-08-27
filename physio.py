@@ -93,7 +93,7 @@ def app():
       # Render the gradient text
     st.markdown(gradient_text_html, unsafe_allow_html=True)
     
-    st.image('divider.png')
+    st.image('images/divider.png')
 
 
     
@@ -244,8 +244,8 @@ def app():
 
             st.write('')
 
-    st.image('divider.png')
-    st.image('divider.png')
+    st.image('image/divider.png')
+    st.image('image/divider.png')
     
     col111, col222 = st.columns(2)
 
