@@ -135,7 +135,7 @@ def update_game():
 
 def app():
     st.title("Eye–hand coordination Test Analysis")
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     st.write(" - This computer vision-based game assesses the coordination between a patient’s hands, reflecting the functional status of both the left and right hemispheres of the brain.")
     st.write(" - :orange[Purpose of test]: It provides insights into motor skills and bilateral coordination, crucial for designing targeted rehabilitation strategies.")
@@ -145,7 +145,7 @@ def app():
 
     with st.form("game_form"):
 
-        st.image('coordination.jpg')
+        st.image('images/coordination.jpg')
         st.write('')
         start_button = st.form_submit_button("Click here to start the test analysis")
 
