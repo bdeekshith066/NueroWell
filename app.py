@@ -88,7 +88,7 @@ if st.session_state.user_info is None:
     st.markdown(gradient_text_html, unsafe_allow_html=True)
     st.write(":orange[Your neuro-rehabilitation platform. Recovering from a stroke, brain injury, or other neurological conditions, we offer personalized plans, virtual therapy, and support tools]")
 
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     st.write('Neurological disorders present immense challenges in rehabilitation due to the complexity of physical and mental hurdles, exacerbated by the lack of personalized and integrated solutions. Traditional approaches often fall short in addressing diverse patient needs, with limited accessibility and fragmented care hindering progress. Neurowell aims to revolutionize neuro-rehabilitation by offering personalized care plans, technology-driven accessibility, integration of rehabilitation efforts, and data-driven insights.')
     
@@ -149,7 +149,7 @@ if st.session_state.user_info is None:
         else:
             auth_notification.success("Password reset link has been sent to your email.")
 
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     col1, col2, col3 = st.columns([0.6, 1, 0.4])
     with col2:
