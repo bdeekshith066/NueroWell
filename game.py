@@ -93,11 +93,11 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 720)
 
-game = SnakeGameClass("Donut.png")
+game = SnakeGameClass("images/Donut.png")
 
 def app():
     st.title("Object recognising and  Hand Tracking Test Analysis")
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     st.write(" - This game evaluates the patient’s concentration and eye-hand coordination by requiring them to navigate a snake through the obstacles.")
     st.write(" - :orange[Purpose of test]: It helps in assessing and enhancing the patient’s focus, reaction time, and precision, which are essential for daily activities and overall cognitive rehabilitation.")
@@ -107,7 +107,7 @@ def app():
 
     with st.form("game_form"):
 
-        st.image('snake.jpg')
+        st.image('images/snake.jpg')
         st.write('')
         start_button = st.form_submit_button("Click here to start the test analysis")
 
