@@ -19,7 +19,7 @@ def app():
 
     st.markdown(gradient_text_html, unsafe_allow_html=True) 
     st.write(":orange[Discover vital Neuro  information and insights tailored for all, empowering better understanding and care]") 
-    st.image('divider.png')
+    st.image('images/divider.png')
 
     st.write('')
 
